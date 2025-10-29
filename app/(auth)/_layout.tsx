@@ -6,9 +6,9 @@ import CustomInput from '@/components/CustomInput';
 import CustomButton from '@/components/CustomButton';
 
 export default function AuthLayout() {
-    // const { isAuthenticated } = useAuthStore();
+    const { isAuthenticated } = useAuthStore();
 
-    // if(isAuthenticated) return <Redirect href="/" />
+    if(isAuthenticated) return <Redirect href="/" />
 
     return (
         <KeyboardAvoidingView behavior={Platform.OS === 'ios' ? 'padding' : 'height'}>
