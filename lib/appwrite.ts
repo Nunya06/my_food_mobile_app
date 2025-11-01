@@ -6,12 +6,12 @@ export const appwriteConfig = {
     projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID!,
     platform: "com.niche.morseloFoods",
     databaseId: '68ffcf8800157d02f81a',
-    // bucketId: '68643e170015edaa95d7',
+    bucketId: '69029efd0021c6c3d7cc',
     userCollectionId: 'morselo1user1',
-    categoriesCollectionId: '68643a390017b239fa0f',
-    menuCollectionId: '68643ad80027ddb96920',
-    customizationsCollectionId: '68643c0300297e5abc95',
-    menuCustomizationsCollectionId: '68643cd8003580ecdd8f'
+    categoriesCollectionId: 'categoriesTable1',
+    menuCollectionId: 'menuTable1',
+    customizationsCollectionId: 'customizationsTable1',
+    menuCustomizationsCollectionId: 'menucustomizationTable1'
 }
 
 export const client = new Client();
